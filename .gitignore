@@ -1,0 +1,16 @@
+# Temp files.
+.#*
+~*
+.DS_Store
+*_flymake.*
+
+# Generated.
+build/*
+
+# Since we can just run 'npm install' to install modules, no need to keep these in repo.
+# Yes, I know there is some debate about this :-)
+node_modules/
+
+# Scripts are specific to my local configuration so ignore.
+scripts/
+run.sh

@@ -1,0 +1,26 @@
+{
+  "name": "ljs.io",
+  "version": "0.0.1",
+  "description": "Personal Website",
+  "main": "src/serve.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lorenzo Stoakes <lstoakes@gmail.com>",
+  "license": "BSD",
+  "dependencies": {
+    "express": "~3.3.5",
+    "coffee-script": "~1.6.3"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-less": "~0.7.0",
+    "grunt-contrib-imagemin": "~0.2.0",
+    "grunt-text-replace": "~0.3.6",
+    "grunt-contrib-htmlmin": "~0.1.3",
+    "grunt-contrib-copy": "~0.4.1"
+  }
+}
