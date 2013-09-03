@@ -3,8 +3,8 @@ define [
 
 	'cs!controllers/views/projects'
 	'cs!controllers/views/projects/openrig'
-	'cs!controllers/views/projects/algo2'
-], (angular, projects, openrig, algo2) ->
+	'cs!controllers/views/projects/alg'
+], (angular, projects, openrig, alg) ->
 
 	angular
 		.module('projects', [])
@@ -19,7 +19,7 @@ define [
 					controller: openrig
 					templateUrl: '/templates/views/projects/openrig.html'
 
-				.when '/projects/algo2'
-					controller: algo2
-					templateUrl: '/templates/views/projects/algo2.html'
+				.when '/projects/alg',
+					controller: alg
+					templateUrl: '/templates/views/projects/alg.html'
 		]
