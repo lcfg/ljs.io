@@ -1,7 +1,7 @@
 ## Current Projects ##
 
-* [OpenRig][0] is a nascent open-source amp and effect simulator I have just started working
-  on.
+* [OpenRig][0] is a nascent open-source guitar amp and effects simulator I have just started
+  working on.
 * I am very interested in algorithms; my [algorithms][1] page contains stuff I'm working on in
   relation to this.
 
