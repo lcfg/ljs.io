@@ -9,7 +9,7 @@ I will upload a repo to github soon and post the link here.
 
 Openrig is a nascent project intended to be an open-source guitar amp and effect simulator in
 the vein of [Guitar Rig][0], [Overloud TH2][1], and [Amplitube][2] (though I by no means intend
-to arrogantly suggest it will achieve the quality of these rather fantastic applications :)
+to arrogantly suggest it will achieve the quality of those rather fantastic applications :)
 
 ## Why? ##
 
