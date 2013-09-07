@@ -1,12 +1,12 @@
 ## Current Status ##
 
-I am working on microproject \#2 - Once again taking advantage of [Fred Ghilini][proj0]'s
-awesome [blog][proj1] and working on his [FFT Analyser][proj2] project.
+I am working on microproject \#2 - [SoundViz][proj2_1] - Once again taking advantage of
+[Fred Ghilini][ref0]'s awesome [blog][ref1] and working on his [FFT Analyser][proj2_2] project.
 
 ### Previous MicroProjects ###
 
-1. [AUExperiment][proj3] - Implemented simple [AU][proj4] component using
-[Fred Ghilini][proj0]'s fantastic [blog post][proj5].
+1. [AUExperiment][proj1_1] - Implemented simple [AU][ref2] component using
+[Fred Ghilini][ref0]'s fantastic [blog post][proj1_2].
 
 ## What Is OpenRig? ##
 
@@ -51,11 +51,12 @@ small project too.
 [5]:http://en.wikipedia.org/wiki/Digital_signal_processor
 [6]:http://www.analog.com/en/processors-dsp/tigersharc/products/index.html
 
-[proj0]:http://sample-hold.com/about/
-[proj1]:http://sample-hold.com/
-[proj2]:http://sample-hold.com/2011/11/23/create-a-fft-analyzer-part-i-prerequisites-concerns-and-setup/
-[proj3]:https://github.com/lorenzo-stoakes/AUExperiment
-[proj4]:http://en.wikipedia.org/wiki/Audio_Unit
-[proj5]:http://sample-hold.com/2011/11/23/getting-started-with-audio-units-on-os-x-lion-and-xcode-4-2-1/
+[proj1_1]:https://github.com/lorenzo-stoakes/AUExperiment
+[proj1_2]:http://sample-hold.com/2011/11/23/getting-started-with-audio-units-on-os-x-lion-and-xcode-4-2-1/
 
+[proj2_1]:https://github.com/lorenzo-stoakes/SoundViz
+[proj2_2]:http://sample-hold.com/2011/11/23/create-a-fft-analyzer-part-i-prerequisites-concerns-and-setup/
 
+[ref0]:http://sample-hold.com/about/
+[ref1]:http://sample-hold.com/
+[ref2]:http://en.wikipedia.org/wiki/Audio_Unit
