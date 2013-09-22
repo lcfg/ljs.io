@@ -1,7 +1,6 @@
 ## Current Projects ##
 
-* [OpenRig][0] is a nascent open-source guitar amp and effects simulator I have just started
-  working on.
+* I'm slowly working my way into contributing to [chromium][0].
 * I am very interested in algorithms; my [algorithms][1] page contains stuff I'm working on in
   relation to this.
 
@@ -17,8 +16,10 @@
 * Taking the inaugural [AI course][p5] and writing up [notes][p6].
 * A &lsquo;rainbow' sorting visualisation, I've uploaded a version on the website <a
   href="/projects/rainbow" target="_self">here<a/>, the code is up on [github][p7].
+* A small [AU][ref1] [template][p8] compatible with XCode 4.6.3 and OS.X 10.8 adapted from
+  Fred Ghilini's [excellent tutorial][ref2].
 
-[0]:/projects/openrig
+[0]:http://http://www.chromium.org/
 [1]:/projects/alg
 
 [p0]:http://golang.org
@@ -29,7 +30,11 @@
 [p5]:http://www.ted.com/talks/peter_norvig_the_100_000_student_classroom.html
 [p6]:https://github.com/lorenzo-stoakes/stanford-ai
 [p7]:https://github.com/lorenzo-stoakes/Rainbow-Sort
+[p8]:https://github.com/lorenzo-stoakes/TemplateAU
 
 [go667]:https://code.google.com/p/go/source/detail?r=3c73bb78da9a
 [go1324]:https://code.google.com/p/go/source/detail?r=2562ce5a7a
 [go1606]:https://code.google.com/p/go/source/detail?r=1bad75771eb6
+
+[ref1]:http://en.wikipedia.org/wiki/Audio_Units
+[ref2]:http://sample-hold.com/2011/11/23/getting-started-with-audio-units-on-os-x-lion-and-xcode-4-2-1/
