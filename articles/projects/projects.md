@@ -19,7 +19,7 @@
 * A small [AU][ref1] [template][p8] compatible with XCode 4.6.3 and OS.X 10.8 adapted from
   Fred Ghilini's [excellent tutorial][ref2].
 
-[0]:http://http://www.chromium.org/
+[0]:http://www.chromium.org/
 [1]:/projects/alg
 
 [p0]:http://golang.org
