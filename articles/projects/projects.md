@@ -1,8 +1,15 @@
 ## Current Projects ##
 
-* I'm slowly working my way into contributing to [chromium][0].
-* I am very interested in algorithms; my [algorithms][1] page contains stuff I'm working on in
-  relation to this.
+* I am a contributor to the [chromium][0] (and relatedly [blink][1]) project (chrome = chromium + some proprietary stuff.)
+* I am very interested in algorithms; my [algorithms][2] page contains stuff I'm working on in
+  relation to this (I will update this at some point, promise :)
+
+### Chromium/Blink Patches ###
+
+1. [Dispatch DOM FocusIn/Out events when the page changes focus.][chr1]
+2. [Don't hide cursor when cmd key pressed on mac.][chr2]
+3. [Make content shell activate and focus dev tools on show.][chr3]
+4. [Don't dispatch blur/focus events if the element's page is not focused.][chr4]
 
 ## Past Projects ##
 
@@ -20,7 +27,13 @@
   Fred Ghilini's [excellent tutorial][ref2].
 
 [0]:http://www.chromium.org/
-[1]:/projects/alg
+[1]:http://www.chromium.org/blink
+[2]:/projects/alg
+
+[chr1]:https://src.chromium.org/viewvc/blink?revision=159293&view=revision
+[chr2]:https://src.chromium.org/viewvc/chrome?revision=229029&view=revision
+[chr3]:https://src.chromium.org/viewvc/chrome?revision=229709&view=revision
+[chr4]:https://src.chromium.org/viewvc/blink?revision=160036&view=revision
 
 [p0]:http://golang.org
 [p1]:https://github.com/lorenzo-stoakes/weak
