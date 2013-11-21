@@ -6,7 +6,7 @@ programmer, I like [playing around][1] with music production and playing guitar,
 
 Contact me at <lstoakes@gmail.com>.
 
-[0]:http://rulemotion.com/
+[0]:http://resin.io
 [1]:https://soundcloud.com/akillatem
 [2]:/projects
 [3]:/articles
