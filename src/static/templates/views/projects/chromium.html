@@ -1,0 +1,20 @@
+<h1>Chromium</h1>
+
+<p>I am a contributor to the <a href="http://www.chromium.org/">chromium</a> and <a href="http://www.chromium.org/blink">blink</a> projects. I am just starting out but
+hope to become a regular contributor.</p>
+
+<h2>Patches</h2>
+
+<p>These are the patches I've got into Chromium and Blink so far:-</p>
+
+<ol>
+<li><a href="https://src.chromium.org/viewvc/chrome?revision=229029&amp;view=revision">Don't hide cursor when cmd key pressed on mac.</a> - When using keyboard shortcuts,
+e.g. cmd+T, chromium would hide the pointer unnecessarily. This was particularly obvious in the
+case of opening a tab - <a href="https://code.google.com/p/chromium/issues/detail?id=306521">issue</a>.</li>
+<li><a href="https://src.chromium.org/viewvc/chrome?revision=236421&amp;view=revision">Use proportional line height for menu items to prevent clipping.</a> - Setting the font
+size to 'Very Large' in settings caused the items of the lefthand menu in this page to clip - <a href="https://code.google.com/p/chromium/issues/detail?id=305913">issue</a>.</li>
+<li><a href="https://src.chromium.org/viewvc/blink?revision=159293&amp;view=revision">Dispatch DOM FocusIn/Out events when the page changes focus.</a> - Prerequisite for 5.</li>
+<li><a href="https://src.chromium.org/viewvc/chrome?revision=229709&amp;view=revision">Make content shell activate and focus dev tools on show.</a> - Prerequisite for 5.</li>
+<li><a href="https://src.chromium.org/viewvc/blink?revision=160036&amp;view=revision">Don't dispatch blur/focus events if the element's page is not focused.</a>
+<a href="https://code.google.com/p/chromium/issues/detail?id=276757">issue</a> - Unfortunately this was later reverted due to a test outside of blink flaking and some unexpected perf regressions :'-( working on a fix...</li>
+</ol>

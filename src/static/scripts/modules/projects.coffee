@@ -10,9 +10,9 @@ define [
 				.when '/projects',
 					templateUrl: '/templates/views/projects/projects.html'
 
-				.when '/projects/openrig',
-					templateUrl: '/templates/views/projects/openrig.html'
-
 				.when '/projects/alg',
 					templateUrl: '/templates/views/projects/alg.html'
+
+				.when '/projects/chromium',
+					templateUrl: '/templates/views/projects/chromium.html'
 		]
