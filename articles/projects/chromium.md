@@ -15,7 +15,8 @@ size to 'Very Large' in settings caused the items of the lefthand menu in this p
 3. [Dispatch DOM FocusIn/Out events when the page changes focus.][chr3] - Prerequisite for 5.
 4. [Make content shell activate and focus dev tools on show.][chr4] - Prerequisite for 5.
 5. [Don't dispatch blur/focus events if the element's page is not focused.][chr5]
-[issue][chr5issue] - Unfortunately this was later reverted due to a test outside of blink flaking and some unexpected perf regressions :'-( working on a fix...
+[issue][chr5issue] - Unfortunately this was later reverted due to a test outside of blink
+flaking. Working on a fix...
 
 [0]:http://www.chromium.org/
 [1]:http://www.chromium.org/blink
