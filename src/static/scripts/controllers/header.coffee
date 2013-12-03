@@ -5,6 +5,9 @@ define ->
 				name: 'Projects'
 				link: '/projects'
 			,
+				name: 'Blog'
+				link: 'http://blog.ljs.io'
+			,
 				name: 'Articles'
 				link: '/articles'
 			,
