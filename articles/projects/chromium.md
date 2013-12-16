@@ -16,7 +16,10 @@ size to 'Very Large' in settings caused the items of the lefthand menu in this p
 4. [Make content shell activate and focus dev tools on show.][chr4] - Prerequisite for 5.
 5. [Don't dispatch blur/focus events if the element's page is not focused.][chr5]
 [issue][chr5issue] - Unfortunately this was later reverted due to a test outside of blink
-flaking. Working on a fix...
+flaking.
+6. [Fix closing tags, missing quotes in test HTML file.][chr6] - Trivial cleanup - [issue][chr6issue].
+7. [Ensure view focused on first tab in FocusTraversal test.][chr7] - Fixes flakiness for commit 5/8 - [issue][chr7issue].
+8. (Ongoing - not yet committed) - Redux of 5 - [issue][chr8issue].
 
 [0]:http://www.chromium.org/
 [1]:http://www.chromium.org/blink
@@ -29,3 +32,8 @@ flaking. Working on a fix...
 [chr4]:https://src.chromium.org/viewvc/chrome?revision=229709&view=revision
 [chr5]:https://src.chromium.org/viewvc/blink?revision=160036&view=revision
 [chr5issue]:https://code.google.com/p/chromium/issues/detail?id=276757
+[chr6]:https://src.chromium.org/viewvc/chrome?revision=239988&view=revision
+[chr6issue]:https://codereview.chromium.org/108813003/
+[chr7]:https://src.chromium.org/viewvc/chrome?revision=240279&view=revision
+[chr7issue]:https://codereview.chromium.org/87643002
+[chr8issue]:https://codereview.chromium.org/87843002/
