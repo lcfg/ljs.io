@@ -14,12 +14,10 @@ case of opening a tab - [issue][chr1issue].
 size to 'Very Large' in settings caused the items of the lefthand menu in this page to clip - [issue][chr2issue].
 3. [Dispatch DOM FocusIn/Out events when the page changes focus.][chr3] - Prerequisite for 5.
 4. [Make content shell activate and focus dev tools on show.][chr4] - Prerequisite for 5.
-5. [Don't dispatch blur/focus events if the element's page is not focused.][chr5]
-[issue][chr5issue] - Unfortunately this was later reverted due to a test outside of blink
-flaking.
+5. [Don't dispatch blur/focus events if the element's page is not focused.][chr5] Unfortunately this was later reverted due to a test outside of blink flaking - [issue][chr5issue].
 6. [Fix closing tags, missing quotes in test HTML file.][chr6] - Trivial cleanup - [issue][chr6issue].
-7. [Ensure view focused on first tab in FocusTraversal test.][chr7] - Prerequisite for 8 [issue][chr7issue].
-8. [Don't dispatch blur/focus events if the element's page is not focused.][8] - Redux of 5 w/additional suggested tweak. - [issue][chr8issue].
+7. [Ensure view focused on first tab in FocusTraversal test.][chr7] - Prerequisite for 8 - [issue][chr7issue].
+8. [Don't dispatch blur/focus events if the element's page is not focused.][chr8] - Redux of 5 w/additional suggested tweak. - [issue][chr8issue].
 
 [0]:http://www.chromium.org/
 [1]:http://www.chromium.org/blink
