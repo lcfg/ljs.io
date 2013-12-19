@@ -15,8 +15,8 @@ size to 'Very Large' in settings caused the items of the lefthand menu in this p
 3. [Dispatch DOM FocusIn/Out events when the page changes focus.][chr3] - Prerequisite for 5.
 4. [Make content shell activate and focus dev tools on show.][chr4] - Prerequisite for 5.
 5. [Don't dispatch blur/focus events if the element's page is not focused.][chr5] Unfortunately this was later reverted due to a test outside of blink flaking - [issue][chr5issue].
-6. [Fix closing tags, missing quotes in test HTML file.][chr6] - Trivial cleanup - [issue][chr6issue].
-7. [Ensure view focused on first tab in FocusTraversal test.][chr7] - Prerequisite for 8 - [issue][chr7issue].
+6. [Fix closing tags, missing quotes in test HTML file.][chr6] - Trivial cleanup.
+7. [Ensure view focused on first tab in FocusTraversal test.][chr7] - Prerequisite for 8.
 8. [Don't dispatch blur/focus events if the element's page is not focused.][chr8] - Redux of 5 w/additional suggested tweak - [issue][chr8issue].
 
 [0]:http://www.chromium.org/
@@ -31,8 +31,6 @@ size to 'Very Large' in settings caused the items of the lefthand menu in this p
 [chr5]:https://src.chromium.org/viewvc/blink?revision=160036&view=revision
 [chr5issue]:https://code.google.com/p/chromium/issues/detail?id=276757
 [chr6]:https://src.chromium.org/viewvc/chrome?revision=239988&view=revision
-[chr6issue]:https://codereview.chromium.org/108813003/
 [chr7]:https://src.chromium.org/viewvc/chrome?revision=240279&view=revision
-[chr7issue]:https://codereview.chromium.org/87643002
 [chr8]:https://src.chromium.org/viewvc/blink?revision=164069&view=revision
-[chr8issue]:https://codereview.chromium.org/87843002/
+[chr8issue]:https://code.google.com/p/chromium/issues/detail?id=276757
