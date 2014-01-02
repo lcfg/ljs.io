@@ -8,9 +8,6 @@ define ->
 				name: 'Blog'
 				link: 'http://blog.ljs.io'
 			,
-				name: 'Articles'
-				link: '/articles'
-			,
 				name: 'About'
 				link: '/about'
 		]
