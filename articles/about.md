@@ -15,7 +15,7 @@ Contact me at <lstoakes@gmail.com>.
 
 ## Source ##
 
-The source code for this site is available in its [github repo][3].
+The source code for this site is available in its [github repo][7].
 
 [0]:http://resin.io
 [1]:/projects
