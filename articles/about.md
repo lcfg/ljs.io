@@ -13,6 +13,10 @@ Contact me at <lstoakes@gmail.com>.
 * [Facebook][5]
 * [Twitter][6]
 
+## Source ##
+
+The source code for this site is available in its [github repo][3].
+
 [0]:http://resin.io
 [1]:/projects
 [2]:https://github.com/lorenzo-stoakes/
@@ -20,3 +24,4 @@ Contact me at <lstoakes@gmail.com>.
 [4]:http://stackoverflow.com/users/3394/kronoz
 [5]:https://www.facebook.com/lstoakes
 [6]:https://twitter.com/ljsloz
+[7]:https://github.com/lorenzo-stoakes/ljs.io
