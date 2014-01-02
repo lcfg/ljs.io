@@ -3,6 +3,10 @@
 I am a contributor to the [chromium][0] and [blink][1] projects. I am just starting out but
 hope to become a regular contributor.
 
+## Fixed Issues ##
+
+
+
 ## Patches ##
 
 These are the patches I've got into Chromium and Blink so far:-
