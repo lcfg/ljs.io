@@ -8,14 +8,14 @@ define ->
 				name: 'Projects'
 				link: '/projects'
 			,
-				name: 'Blog (@Tumblr)'
-				link: 'http://blog.ljs.io'
-			,
 				name: 'Chromium'
 				link: '/projects/chromium'
 			,
 				name: 'Algorithms'
 				link: '/projects/alg'
+			,
+				name: 'Blog (@Tumblr)'
+				link: 'http://blog.ljs.io'
 			,
 				name: 'About'
 				link: '/about'
