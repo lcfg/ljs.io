@@ -1,7 +1,7 @@
 ## Current Projects ##
 
-* [Chromium][0] - I am a contributor to the [chromium][1] (and relatedly [blink][2]) projects.
-* [Algorithms][3] - I am very interested in algorithms, this is where I am going to put stuff related to this subject once I get the time to do so :)
+* I am a [contributor][0] to the [chromium][1] (and relatedly [blink][2]) projects.
+* I like to play around with [algorithms][3].
 
 ## Past Projects ##
 
