@@ -9,7 +9,7 @@ Contact me at <lstoakes@gmail.com>.
 
 * [Github][2]
 * [Hacker News][3]
-* [Stackoverflow][4] - Note I've not contributed to SO for quite some time, so my Q+A's on there are pretty bloody outdated. All views expressed there may have changed etc. etc. :)
+* [Ohloh][4]
 * [Facebook][5]
 * [Twitter][6]
 
@@ -21,7 +21,7 @@ The source code for this site is available in its [github repo][3].
 [1]:/projects
 [2]:https://github.com/lorenzo-stoakes/
 [3]:https://news.ycombinator.com/user?id=singular
-[4]:http://stackoverflow.com/users/3394/kronoz
+[4]:https://www.ohloh.net/accounts/ljs/
 [5]:https://www.facebook.com/lstoakes
 [6]:https://twitter.com/ljsloz
 [7]:https://github.com/lorenzo-stoakes/ljs.io
