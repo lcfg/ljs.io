@@ -1,7 +1,10 @@
 ## Current Projects ##
 
 * I am a [contributor][0] to the [chromium][1] (and relatedly [blink][2]) projects.
-* I like to play around with [algorithms][3].
+* My latest [algorithmic][3] project is [algoholic][4], a collection of algorithms implemented in
+  different languages.
+* I am studying [xv6][5], a rather amazing toy OS codebase combined with high quality study
+  materials (in particular, the [xv6 book][6]) - Check out my [blog post][7] for more details.
 
 ## Past Projects ##
 
@@ -23,6 +26,11 @@
 [2]:http://www.chromium.org/blink
 
 [3]:/projects/alg
+[4]:https://github.com/lorenzo-stoakes/algoholic
+
+[5]:http://pdos.csail.mit.edu/6.828/2012/xv6.html
+[6]:http://pdos.csail.mit.edu/6.828/2012/xv6/book-rev7.pdf
+[7]:http://blog.ljs.io/post/71424794630/xv6
 
 [p0]:http://golang.org
 [p1]:https://github.com/lorenzo-stoakes/weak
