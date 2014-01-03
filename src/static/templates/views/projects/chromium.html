@@ -1,22 +1,26 @@
 <h1>Chromium</h1>
 
-<p>I am a contributor to the <a href="http://www.chromium.org/">chromium</a> and <a href="http://www.chromium.org/blink">blink</a> projects. I am just starting out but
-hope to become a regular contributor.</p>
+<p>I am a contributor to the <a href="http://www.chromium.org/">chromium</a> and <a href="http://www.chromium.org/blink">blink</a> open source projects.</p>
+
+<h2>Fixed Issues</h2>
+
+<ul>
+<li><a href="https://code.google.com/p/chromium/issues/detail?id=306521">306521</a> - The mouse pointer unexpectedly disappeared on mac after cmd+T, cmd+N, etc.</li>
+<li><a href="https://code.google.com/p/chromium/issues/detail?id=305913">305913</a> - Setting the font size to very large font caused the settings side menu to clip horribly.</li>
+<li><a href="https://code.google.com/p/chromium/issues/detail?id=276757">276757</a> - Blur event was  being duplicated, causing the tab to hang under certain circumstances.</li>
+<li><a href="https://code.google.com/p/chromium/issues/detail?id=292119">292119</a> - Deleting an item from the off-the-side menu on mac broke scrolling in the menu.</li>
+</ul>
 
 <h2>Patches</h2>
 
-<p>These are the patches I've got into Chromium and Blink so far:-</p>
-
 <ol>
-<li><a href="https://src.chromium.org/viewvc/chrome?revision=229029&amp;view=revision">Don't hide cursor when cmd key pressed on mac.</a> - When using keyboard shortcuts,
-e.g. cmd+T, chromium would hide the pointer unnecessarily. This was particularly obvious in the
-case of opening a tab - <a href="https://code.google.com/p/chromium/issues/detail?id=306521">issue</a>.</li>
-<li><a href="https://src.chromium.org/viewvc/chrome?revision=236421&amp;view=revision">Use proportional line height for menu items to prevent clipping.</a> - Setting the font
-size to 'Very Large' in settings caused the items of the lefthand menu in this page to clip - <a href="https://code.google.com/p/chromium/issues/detail?id=305913">issue</a>.</li>
-<li><a href="https://src.chromium.org/viewvc/blink?revision=159293&amp;view=revision">Dispatch DOM FocusIn/Out events when the page changes focus.</a> - Prerequisite for 5.</li>
-<li><a href="https://src.chromium.org/viewvc/chrome?revision=229709&amp;view=revision">Make content shell activate and focus dev tools on show.</a> - Prerequisite for 5.</li>
-<li><a href="https://src.chromium.org/viewvc/blink?revision=160036&amp;view=revision">Don't dispatch blur/focus events if the element's page is not focused.</a> Unfortunately this was later reverted due to a test outside of blink flaking - <a href="https://code.google.com/p/chromium/issues/detail?id=276757">issue</a>.</li>
-<li><a href="https://src.chromium.org/viewvc/chrome?revision=239988&amp;view=revision">Fix closing tags, missing quotes in test HTML file.</a> - Trivial cleanup.</li>
-<li><a href="https://src.chromium.org/viewvc/chrome?revision=240279&amp;view=revision">Ensure view focused on first tab in FocusTraversal test.</a> - Prerequisite for 8.</li>
-<li><a href="https://src.chromium.org/viewvc/blink?revision=164069&amp;view=revision">Don't dispatch blur/focus events if the element's page is not focused.</a> - Redux of 5 w/additional suggested tweak - <a href="https://code.google.com/p/chromium/issues/detail?id=276757">issue</a>.</li>
+<li><a href="https://src.chromium.org/viewvc/chrome?revision=229029&amp;view=revision">Don't hide cursor when cmd key pressed on mac</a> - Fixed issue <a href="https://code.google.com/p/chromium/issues/detail?id=306521">306521</a>.</li>
+<li><a href="https://src.chromium.org/viewvc/chrome?revision=236421&amp;view=revision">Use proportional line height for menu items to prevent clipping</a> - Fixed issue <a href="https://code.google.com/p/chromium/issues/detail?id=305913">305913</a>.</li>
+<li><a href="https://src.chromium.org/viewvc/blink?revision=159293&amp;view=revision">Dispatch DOM FocusIn/Out events when the page changes focus</a> - Prerequisite for 5.</li>
+<li><a href="https://src.chromium.org/viewvc/chrome?revision=229709&amp;view=revision">Make content shell activate and focus dev tools on show</a> - Prerequisite for 5.</li>
+<li><a href="https://src.chromium.org/viewvc/blink?revision=160036&amp;view=revision">Don't dispatch blur/focus events if the element's page is not focused</a> - Attempt to fix issue <a href="https://code.google.com/p/chromium/issues/detail?id=276757">276757</a>, however was reverted due to flaking test.</li>
+<li><a href="https://src.chromium.org/viewvc/chrome?revision=239988&amp;view=revision">Fix closing tags, missing quotes in test HTML file</a> - Trivial cleanup.</li>
+<li><a href="https://src.chromium.org/viewvc/chrome?revision=240279&amp;view=revision">Ensure view focused on first tab in FocusTraversal test</a> - Prerequisite for 8.</li>
+<li><a href="https://src.chromium.org/viewvc/blink?revision=164069&amp;view=revision">Don't dispatch blur/focus events if the element's page is not focused</a> - Once 7 landed I was able to fix issue <a href="https://code.google.com/p/chromium/issues/detail?id=276757">276757</a>.</li>
+<li><a href="https://src.chromium.org/viewvc/chrome?revision=242801&amp;view=revision">Remove unnecessary menu reconfigure</a> - Fixed issue <a href="https://code.google.com/p/chromium/issues/detail?id=292119">292119</a>.</li>
 </ol>
