@@ -9,9 +9,9 @@ Algorithms are simply a well-defined set of instructions for solving a problem -
 
 If we stretch this definition far enough it encompasses every computer program even written, so
 I should clarify by emphasising that I am specifically interested in the subset of algorithms
-which describe solutions to problems which are both sufficiently abstract enough that they aren't
-overwhelmingly restrictive in their application domain and also provide solutions that are useful
-enough to warrant their study.
+which describe solutions to problems which are both sufficiently abstract enough that they
+aren't overwhelmingly restrictive in their application domain, and provide solutions that are
+useful enough to warrant their study.
 
 ## An Instructive Example ##
 
