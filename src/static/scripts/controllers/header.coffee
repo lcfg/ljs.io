@@ -11,7 +11,6 @@ define ->
 				name: 'Algorithms'
 				link: '/projects/alg'
 			,
-
 				name: 'Other Projects'
 				link: '/projects'
 			,
