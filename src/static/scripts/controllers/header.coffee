@@ -5,14 +5,15 @@ define ->
 				name: 'Home'
 				link: '/'
 			,
-				name: 'Projects'
-				link: '/projects'
-			,
 				name: 'Chromium'
 				link: '/projects/chromium'
 			,
 				name: 'Algorithms'
 				link: '/projects/alg'
+			,
+
+				name: 'Other Projects'
+				link: '/projects'
 			,
 				name: 'Blog (@Tumblr)'
 				link: 'http://blog.ljs.io'
