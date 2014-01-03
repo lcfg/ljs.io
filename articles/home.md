@@ -1,4 +1,4 @@
-## Hi ##
+# Hi #
 
 This is [my][0] personal site. I work on contributing to [chromium][1], studying [algorithms][2] and other [projects][3], and I sometimes [blog][4].
 

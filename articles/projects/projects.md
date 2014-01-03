@@ -1,4 +1,6 @@
-## Current Projects ##
+# Projects #
+
+## Current ##
 
 * I am a [contributor][0] to the [chromium][1] (and relatedly [blink][2]) projects.
 * My latest [algorithmic][3] project is [algoholic][4], a collection of algorithms implemented in
@@ -6,7 +8,7 @@
 * I am studying [xv6][5], a rather amazing toy OS codebase combined with high quality study
   material (in particular, the [xv6 book][6]) - Check out my [blog post][7] for more details.
 
-## Past Projects ##
+## Past ##
 
 * Contributed to the [Go programming language][p0] - fixed issues [667][go667], [1324][go1324],
   and [1606][go1606].
