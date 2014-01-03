@@ -1,6 +1,6 @@
 # Algorithms #
 
-What I find most interesting about algorithms is the enormous difference they can make on the
+What I find most interesting about algorithms is the enormous difference they can make to the
 performance, and in many cases the feasibility, of a solution.
 
 ## Definition ##
