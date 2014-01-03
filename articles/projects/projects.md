@@ -4,22 +4,22 @@
 * My latest [algorithmic][3] project is [algoholic][4], a collection of algorithms implemented in
   different languages.
 * I am studying [xv6][5], a rather amazing toy OS codebase combined with high quality study
-  materials (in particular, the [xv6 book][6]) - Check out my [blog post][7] for more details.
+  material (in particular, the [xv6 book][6]) - Check out my [blog post][7] for more details.
 
 ## Past Projects ##
 
-* Contributing to the [Go programming language][p0] - fixed issues [667][go667], [1324][go1324],
+* Contributed to the [Go programming language][p0] - fixed issues [667][go667], [1324][go1324],
   and [1606][go1606].
-* [Weak][p1], an open source chess [perft][p2] calculator. This was intended to be a full-blown
+* Wrote [Weak][p1], an open source chess [perft][p2] calculator. This was intended to be a full-blown
   chess engine, but in the process of working on it I realised I simply wasn't passionate
   enough about the game to dedicate the time that would require. Regardless, it was great
   experience and taught me a lot about programming high performance software in C.
-* Taking the [Algo 1][p3] course and writing up [notes][p4].
-* Taking the inaugural [AI course][p5] and writing up [notes][p6].
-* A &lsquo;rainbow' sorting visualisation, I've uploaded a version on the website <a
-  href="/projects/rainbow" target="_self">here<a/>, the code is up on [github][p7].
-* A small [AU][ref1] [template][p8] compatible with XCode 4.6.3 and OS.X 10.8 adapted from
-  Fred Ghilini's [excellent tutorial][ref2].
+* Took the [Algo 1][p3] course and wrote up some [notes][p4].
+* Took the inaugural [AI course][p5] and wrote up some [notes][p6].
+* Created a &lsquo;rainbow' sorting visualisation and uploaded <a href="/projects/rainbow"
+  target="_self">a version</a> on this website. The code is up on [github][p7].
+* Wrote a small [AU][ref1] [template][p8] compatible with XCode 4.6.3 and OS.X 10.8 adapted
+  from Fred Ghilini's [excellent tutorial][ref2].
 
 [0]:/projects/chromium
 [1]:http://www.chromium.org/
