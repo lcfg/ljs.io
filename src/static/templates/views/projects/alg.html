@@ -1,3 +1,46 @@
 <h2>Algorithms</h2>
 
-<p>I find algorithms fascinating - here's where I post work I'm doing related to this interest.</p>
+<p>What I find most interesting about algorithms is the enormous difference they can make on the
+performance, and in many cases the feasibility, of a solution.</p>
+
+<h3>Definition</h3>
+
+<p>Algorithms are simply a well-defined set of instructions for solving a problem - a recipe.</p>
+
+<p>If we stretch this definition far enough it encompasses every computer program even written, so
+I should clarify by emphasising that I am specifically interested in the subset of algorithms
+which describe solutions to problems which are both sufficiently abstract enough that they aren't
+overwhelmingly restrictive in their application domain and also provide solutions that are useful
+enough to warrant their study.</p>
+
+<h3>An Instructive Example</h3>
+
+<p>A simple yet rather convincing example of the power of algorithms is in the solution of one of,
+if not the most fundamental problem in computing - sorting.</p>
+
+<p>A typical industry programmer when asked to implement their own sorting algorithm with no prior
+knowledge of extant algorithms would likely come up with <a href="http://en.wikipedia.org/wiki/insertion_sort">insertion sort</a>,
+<a href="http://en.wikipedia.org/wiki/bubble_sort">bubble sort</a> or <a href="http://en.wikipedia.org/wiki/selection_sort">selection sort</a>. Each of these algorithms are <a href="http://en.wikipedia.org/wiki/big_oh">O</a>(n<sup>2</sup>),
+and thus sorting a collection of 100 numbers on a modern machine will be fast, 1,000
+surprisingly slow, 100,000 very very slow, and 1,000,000 or more totally impractical.</p>
+
+<p>The ideas contained in <a href="http://en.wikipedia.org/wiki/merge_sort">merge sort</a>, <a href="http://en.wikipedia.org/wiki/quick_sort">quick sort</a> and the like are not deeply complicated
+but are certainly not obvious, on first glance at least. However these algorithms are
+worst-case (or in quicksort's case average- and <em>practically</em> worst-case) O(n log n), meaning
+they can handle considerably larger inputs - 1,000,000 and beyond - without breaking a sweat.</p>
+
+<p>A great many computing tasks require sorting at some stage in their implementation, so moving
+from a slow-to-infeasible to a fast-and-very-much-feasible algorithm means the difference
+between being able to do certain tasks on computers and not being able to do them <em>at all</em>.</p>
+
+<p>Check out algoholic (see below) for instructions on benchmarking sorting code wherein you can see
+for yourself just what a difference it makes to choose an O(n<sup>2</sup>) sorting algorithm over an O(n log n) one.</p>
+
+<h2>Algoholic</h2>
+
+<p><a href="https://github.com/lorenzo-stoakes/algoholic">Algoholic</a> is a project I have created for playing around with the implementation
+of many different algorithms in many different languages for self-study and fun.</p>
+
+<p>I make no guarantees as to the quality and robustness of the code, however I do put an emphasis
+on describing what I'm doing in more detail than I usually would, so hopefully it will be of
+some use to somebody else out there for the purposes of study.</p>
