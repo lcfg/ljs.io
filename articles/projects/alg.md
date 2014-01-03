@@ -1,9 +1,9 @@
-## Algorithms ##
+# Algorithms #
 
 What I find most interesting about algorithms is the enormous difference they can make on the
 performance, and in many cases the feasibility, of a solution.
 
-### Definition ###
+## Definition ##
 
 Algorithms are simply a well-defined set of instructions for solving a problem - a recipe.
 
@@ -13,7 +13,7 @@ which describe solutions to problems which are both sufficiently abstract enough
 overwhelmingly restrictive in their application domain and also provide solutions that are useful
 enough to warrant their study.
 
-### An Instructive Example ###
+## An Instructive Example ##
 
 A simple yet rather convincing example of the power of algorithms is in the solution of one of,
 if not the most fundamental problem in computing - sorting.
