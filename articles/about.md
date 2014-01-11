@@ -3,6 +3,9 @@
 I'm Lorenzo [J.] Stoakes, a 32-year-old English bloke. I work at a [startup][0] as a
 programmer, and like to... [program][1] on the side.
 
+I am also passionate about flying (I hope to get a license one day), music (I sometimes play
+around with production and also play guitar), and beer (I hope to homebrew at some point :)
+
 Contact me at <lstoakes@gmail.com>.
 
 ## Elsewhere on the Web ##
