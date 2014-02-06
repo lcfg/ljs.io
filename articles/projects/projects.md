@@ -7,6 +7,7 @@
   different languages.
 * I am studying [xv6][5], a rather amazing toy OS codebase combined with high quality study
   material (in particular, the [xv6 book][6]) - Check out my [blog post][7] for more details.
+* I occasionally work on [Sneaky Charlie][8], a [Coffeescript][9] poker bot designed to take part in the [JsPoker][10] poker bot tournament. Charlie won round 7 of the bounty contest yay!
 
 ## Past ##
 
@@ -33,6 +34,10 @@
 [5]:http://pdos.csail.mit.edu/6.828/2012/xv6.html
 [6]:http://pdos.csail.mit.edu/6.828/2012/xv6/book-rev7.pdf
 [7]:http://blog.ljs.io/post/71424794630/xv6
+
+[8]:https://github.com/lorenzo-stoakes/SneakyCharlie
+[9]:http://coffeescript.org/
+[10]:https://github.com/mdp/JsPoker
 
 [p0]:http://golang.org
 [p1]:https://github.com/lorenzo-stoakes/weak
