@@ -16,5 +16,4 @@ app.use (req, res, next) ->
 	else
 		next()
 
-app.listen(3000)
-
+app.listen(process.env.PORT or 3000)
