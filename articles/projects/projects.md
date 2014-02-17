@@ -8,6 +8,8 @@
 * I am studying [xv6][5], a rather amazing toy OS codebase combined with high quality study
   material (in particular, the [xv6 book][6]) - Check out my [blog post][7] for more details.
 * I occasionally work on [Sneaky Charlie][8], a [Coffeescript][9] poker bot designed to take part in the [JsPoker][10] poker bot tournament. Charlie won round 7 of the bounty contest yay!
+* I am (rather slowly) working on [hexagram][11], a [magic][12]-playing application, partly in
+  order to develop my Objective C and C++ skills.
 
 ## Past ##
 
@@ -38,6 +40,9 @@
 [8]:https://github.com/lorenzo-stoakes/SneakyCharlie
 [9]:http://coffeescript.org/
 [10]:https://github.com/mdp/JsPoker
+
+[11]:https://github.com/lorenzo-stoakes/hexagram/
+[12]:http://en.wikipedia.org/wiki/Magic_the_gathering
 
 [p0]:http://golang.org
 [p1]:https://github.com/lorenzo-stoakes/weak
