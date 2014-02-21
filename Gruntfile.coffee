@@ -12,6 +12,7 @@ module.exports = (grunt) ->
 					src: '*'
 					filter: (src) -> src.indexOf('main.css') is -1
 				]
+			templateCache: [ 'build/static/scripts/templateCache.js' ]
 
 		copy:
 			main:
