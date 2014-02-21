@@ -124,11 +124,11 @@ module.exports = (grunt) ->
 
 	grunt.loadNpmTasks('grunt-contrib-clean')
 	grunt.loadNpmTasks('grunt-contrib-copy')
-	grunt.loadNpmTasks('grunt-contrib-requirejs')
-	grunt.loadNpmTasks('grunt-contrib-less')
-	grunt.loadNpmTasks('grunt-contrib-imagemin')
-	grunt.loadNpmTasks('grunt-text-replace')
 	grunt.loadNpmTasks('grunt-contrib-htmlmin')
+	grunt.loadNpmTasks('grunt-contrib-imagemin')
+	grunt.loadNpmTasks('grunt-contrib-less')
+	grunt.loadNpmTasks('grunt-contrib-requirejs')
+	grunt.loadNpmTasks('grunt-text-replace')
 
 	grunt.registerTask('build', [
 		'clean:build'
