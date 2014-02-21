@@ -166,5 +166,8 @@ module.exports = (grunt) ->
 		'imagemin:main'
 		'replace:index.html'
 		'htmlmin'
+		'ngtemplates'
+		'concat:templateCache'
+		'clean:templateCache'
 	]
 
