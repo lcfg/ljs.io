@@ -140,6 +140,11 @@ module.exports = (grunt) ->
 					prefix: '/'
 					standalone: true
 
+		concat:
+			templateCache:
+				src: [ 'build/static/scripts/main.js', 'build/static/scripts/templateCache.js' ]
+				dest: 'build/static/scripts/main.js'
+
 	grunt.loadNpmTasks('grunt-angular-templates')
 	grunt.loadNpmTasks('grunt-contrib-clean')
 	grunt.loadNpmTasks('grunt-contrib-concat')
