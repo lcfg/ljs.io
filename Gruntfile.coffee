@@ -130,7 +130,7 @@ module.exports = (grunt) ->
 	grunt.loadNpmTasks('grunt-contrib-requirejs')
 	grunt.loadNpmTasks('grunt-text-replace')
 
-	grunt.registerTask('build', [
+	grunt.registerTask 'build', [
 		'clean:build'
 		'copy:main'
 		'requirejs:main'
@@ -140,5 +140,5 @@ module.exports = (grunt) ->
 		'imagemin:main'
 		'replace:index.html'
 		'htmlmin'
-	])
+	]
 
