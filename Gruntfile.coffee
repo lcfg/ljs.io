@@ -122,6 +122,24 @@ module.exports = (grunt) ->
 					dest: "build/static/index.html"
 				]
 
+		ngtemplates:
+			templateCache:
+				cwd: 'src/static'
+				src: 'templates/**/**.htm*'
+				dest: 'build/static/scripts/templateCache.js'
+				options:
+					htmlmin:
+						collapseBooleanAttributes: true
+						collapseWhitespace: true
+						removeAttributeQuotes: true
+						removeComments: true
+						removeEmptyAttributes: true
+						removeRedundantAttributes: true
+						removeScriptTypeAttributes: true
+						removeStyleLinkTypeAttributes: true
+					prefix: '/'
+					standalone: true
+
 	grunt.loadNpmTasks('grunt-angular-templates')
 	grunt.loadNpmTasks('grunt-contrib-clean')
 	grunt.loadNpmTasks('grunt-contrib-concat')
