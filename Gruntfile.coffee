@@ -1,6 +1,6 @@
 module.exports = (grunt) ->
 
-	grunt.initConfig(
+	grunt.initConfig
 		pkg: grunt.file.readJSON('package.json')
 
 		clean:
@@ -121,7 +121,6 @@ module.exports = (grunt) ->
 					src: "build/static/index.html"
 					dest: "build/static/index.html"
 				]
-	)
 
 	grunt.loadNpmTasks('grunt-contrib-clean')
 	grunt.loadNpmTasks('grunt-contrib-copy')
