@@ -122,7 +122,9 @@ module.exports = (grunt) ->
 					dest: "build/static/index.html"
 				]
 
+	grunt.loadNpmTasks('grunt-angular-templates')
 	grunt.loadNpmTasks('grunt-contrib-clean')
+	grunt.loadNpmTasks('grunt-contrib-concat')
 	grunt.loadNpmTasks('grunt-contrib-copy')
 	grunt.loadNpmTasks('grunt-contrib-htmlmin')
 	grunt.loadNpmTasks('grunt-contrib-imagemin')
