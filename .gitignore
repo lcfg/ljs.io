@@ -14,3 +14,4 @@ node_modules/
 # Scripts are specific to my local configuration so ignore.
 /scripts
 run.sh
+runBuild.sh
