@@ -9,9 +9,20 @@ define [
 	'cs!modules/projects'
 ], (angular) ->
 
-	angular
-		.module('app', [ 'ngRoute', 'core', 'directives', 'projects' ])
+	try
+		angular.module('templateCache')
+	catch
+		angular.module('templateCache', [])
 
+	angular
+		.module('app', [
+			'templateCache'
+
+			'ngRoute'
+			'core'
+			'directives'
+			'projects'
+		])
 		.config [ '$locationProvider', ($locationProvider) ->
 			$locationProvider.html5Mode(true).hashPrefix('!')
 		]
