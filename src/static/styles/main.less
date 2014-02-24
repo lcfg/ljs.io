@@ -1,5 +1,16 @@
 @import "normalise.css";
 
+@font-face {
+    font-family: 'im_fell_english';
+    src: url('fonts/im-fell-english-webfont.eot');
+    src: url('fonts/im-fell-english-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/im-fell-english-webfont.woff') format('woff'),
+         url('fonts/im-fell-english-webfont.ttf') format('truetype'),
+         url('fonts/im-fell-english-webfont.svg#im_fell_english') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .radius (@size) {
 	border-radius: @size;
 	-webkit-border-radius: @size;
@@ -11,10 +22,8 @@
 }
 
 body {
-	font-family: 'IM Fell English';
-
+	font-family: 'im-fell-english';
 	font-size: 14pt;
-
 	min-width: 700px;
 }
 
